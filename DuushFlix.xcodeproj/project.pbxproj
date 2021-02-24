@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		275E5D21E69EACA58D18334B /* Pods_DuushFlix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7110E48928B88A283A54B9B /* Pods_DuushFlix.framework */; };
 		940B4D0625DC460500DB699D /* DuushFlixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940B4D0525DC460500DB699D /* DuushFlixApp.swift */; };
 		940B4D0825DC460500DB699D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940B4D0725DC460500DB699D /* ContentView.swift */; };
 		940B4D0A25DC460700DB699D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940B4D0925DC460700DB699D /* Assets.xcassets */; };
 		940B4D0D25DC460700DB699D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940B4D0C25DC460700DB699D /* Preview Assets.xcassets */; };
+		940B4D1625DC461E00DB699D /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940B4D1525DC461E00DB699D /* Video.swift */; };
+		940B4D1A25DC84BA00DB699D /* HeroImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940B4D1925DC84BA00DB699D /* HeroImage.swift */; };
+		940B4D1E25DC84FA00DB699D /* PlaylistRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940B4D1D25DC84FA00DB699D /* PlaylistRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5559FA171E89AD3587F194B5 /* Pods-DuushFlix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuushFlix.release.xcconfig"; path = "Target Support Files/Pods-DuushFlix/Pods-DuushFlix.release.xcconfig"; sourceTree = "<group>"; };
 		940B4D0225DC460500DB699D /* DuushFlix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuushFlix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		940B4D0525DC460500DB699D /* DuushFlixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuushFlixApp.swift; sourceTree = "<group>"; };
 		940B4D0725DC460500DB699D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		940B4D0925DC460700DB699D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		940B4D0C25DC460700DB699D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		940B4D0E25DC460700DB699D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		940B4D1525DC461E00DB699D /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		940B4D1925DC84BA00DB699D /* HeroImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroImage.swift; sourceTree = "<group>"; };
+		940B4D1D25DC84FA00DB699D /* PlaylistRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistRow.swift; sourceTree = "<group>"; };
+		A7110E48928B88A283A54B9B /* Pods_DuushFlix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DuushFlix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6B874759447733BB69A780A /* Pods-DuushFlix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuushFlix.debug.xcconfig"; path = "Target Support Files/Pods-DuushFlix/Pods-DuushFlix.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				275E5D21E69EACA58D18334B /* Pods_DuushFlix.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8AE915BDE45F6158F4866DAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7110E48928B88A283A54B9B /* Pods_DuushFlix.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		940B4CF925DC460500DB699D = {
 			isa = PBXGroup;
 			children = (
 				940B4D0425DC460500DB699D /* DuushFlix */,
 				940B4D0325DC460500DB699D /* Products */,
+				E6145043AF391C741FFC436F /* Pods */,
+				8AE915BDE45F6158F4866DAF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +75,9 @@
 			children = (
 				940B4D0525DC460500DB699D /* DuushFlixApp.swift */,
 				940B4D0725DC460500DB699D /* ContentView.swift */,
+				940B4D1925DC84BA00DB699D /* HeroImage.swift */,
+				940B4D1D25DC84FA00DB699D /* PlaylistRow.swift */,
+				940B4D1525DC461E00DB699D /* Video.swift */,
 				940B4D0925DC460700DB699D /* Assets.xcassets */,
 				940B4D0E25DC460700DB699D /* Info.plist */,
 				940B4D0B25DC460700DB699D /* Preview Content */,
@@ -69,6 +93,16 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		E6145043AF391C741FFC436F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6B874759447733BB69A780A /* Pods-DuushFlix.debug.xcconfig */,
+				5559FA171E89AD3587F194B5 /* Pods-DuushFlix.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 940B4D1125DC460700DB699D /* Build configuration list for PBXNativeTarget "DuushFlix" */;
 			buildPhases = (
+				FD879497C4252A8E1170F6B2 /* [CP] Check Pods Manifest.lock */,
 				940B4CFE25DC460500DB699D /* Sources */,
 				940B4CFF25DC460500DB699D /* Frameworks */,
 				940B4D0025DC460500DB699D /* Resources */,
+				4AD0F4CB83EB5529698DF3B0 /* [CP] Copy Pods Resources */,
+				5BA07E4E5D886181F9C0F455 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +170,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4AD0F4CB83EB5529698DF3B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DuushFlix/Pods-DuushFlix-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DuushFlix/Pods-DuushFlix-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DuushFlix/Pods-DuushFlix-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BA07E4E5D886181F9C0F455 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DuushFlix/Pods-DuushFlix-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DuushFlix/Pods-DuushFlix-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DuushFlix/Pods-DuushFlix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD879497C4252A8E1170F6B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DuushFlix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		940B4CFE25DC460500DB699D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				940B4D0825DC460500DB699D /* ContentView.swift in Sources */,
+				940B4D1625DC461E00DB699D /* Video.swift in Sources */,
+				940B4D1E25DC84FA00DB699D /* PlaylistRow.swift in Sources */,
 				940B4D0625DC460500DB699D /* DuushFlixApp.swift in Sources */,
+				940B4D1A25DC84BA00DB699D /* HeroImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +363,7 @@
 		};
 		940B4D1225DC460700DB699D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6B874759447733BB69A780A /* Pods-DuushFlix.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -286,6 +386,7 @@
 		};
 		940B4D1325DC460700DB699D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5559FA171E89AD3587F194B5 /* Pods-DuushFlix.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
